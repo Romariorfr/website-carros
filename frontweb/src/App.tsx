@@ -1,11 +1,8 @@
-import './App.css';
+import "./App.css";
+import Header from "./components/Header";
 
 function App() {
-  return (
-    <div>
-     Projeto base iniciado!
-    </div>
-  );
+  return <Header />;
 }
 
 export default App;
