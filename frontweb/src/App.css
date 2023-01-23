@@ -5,6 +5,15 @@ h1,h2,h3,h4,h5,h6{
   margin-bottom: 0px;
 }
 
+a,a:hover{
+  text-decoration: none;
+  color: unset;
+}
+
+*{
+  font-family: 'Roboto',sans-serif;
+}
+
 .App {
   text-align: center;
 }
