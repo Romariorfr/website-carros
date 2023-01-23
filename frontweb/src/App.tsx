@@ -1,9 +1,9 @@
 import './assets/styles/custom.scss';
-import "./App.css";
-import Header from "./components/Header";
+import './App.css';
+import Rotas from './Rotas';
 
 function App() {
-  return <Header />;
+  return <Rotas/>
 }
 
 export default App;
