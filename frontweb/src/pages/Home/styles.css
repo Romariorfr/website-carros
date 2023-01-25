@@ -93,3 +93,11 @@
     padding-top: 7px;
   }
 }
+
+@media (min-width: 768px) {
+
+  .home-container p {
+    margin: 0px 160px 40px 160px;
+
+  }
+}
