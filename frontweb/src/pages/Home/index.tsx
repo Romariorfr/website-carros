@@ -13,7 +13,7 @@ const Home = () => {
           </p>
         </div>
 
-        <div className="catalog-card btn">
+        <div className="catalog-card">
           <button className='btn-catalog'>VER CATÁLOGO</button>
           <h2>Comece agora a navegar</h2>
         </div>
@@ -22,4 +22,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Home; 

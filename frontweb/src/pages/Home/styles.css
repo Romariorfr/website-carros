@@ -29,31 +29,67 @@
 }
 
 .catalog-card {
-  display: flex;
-  align-content: center;
-  text-align: center;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  
+  text-align: center;
+ 
   border-radius: 10px;
   margin: 20px 2px 20px 2px;
-  background-color: #EDEDED;
- 
+  background-color: #ededed;
+  padding-top: 28px;
 }
 
 .catalog-card h2 {
   font-size: 20px;
   color: #585858;
   font-weight: 400;
-  padding-bottom: 25px ;
+  padding-bottom: 25px;
   padding-top: 5px;
-
 }
 
 .btn-catalog {
-  margin: 30px 60px 10px 60px;
   background-color: #00285f;
   color: #fff;
   width: 200px;
   height: 40px;
   border-radius: 5px;
+  text-align: center;
+}
 
+@media (min-width: 576px) {
+  .card-container svg {
+    width: 330px;
+    height: auto;
+  }
+
+  .home-container p {
+    margin: 0px 50px 40px 50px;
+    font-size: 18px;
+  }
+
+  .card-container h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+  }
+
+  .catalog-card {
+    flex-direction: row;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 60px;
+  }
+
+  .btn-catalog {
+    margin: 0px;
+    margin-right: 16px;
+  }
+
+  .catalog-card h2 {
+    padding-bottom: 5px;
+    padding-top: 7px;
+  }
 }
