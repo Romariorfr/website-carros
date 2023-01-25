@@ -19,6 +19,8 @@
 .card-container h1 {
   font-size: 22px;
   margin: 35px 22px 15px 22px;
+  font-weight: 700;
+  text-align: center;
 }
 
 .card-container p {
@@ -115,5 +117,25 @@
     justify-content: flex-start;
     margin: 20px 2px 20px 2px;
     padding-left: 90px;
+  }
+}
+
+@media (min-width: 1200px) {
+
+
+  .card-container {
+    flex-direction: row-reverse;
+    margin: 30px 150px 30px 150px;
+  }
+
+  .card-container h1 {
+    text-align: start;
+    margin-left: 75px;
+  }
+
+  .home-container p {
+    text-align: start;
+    margin-left: 75px;
+
   }
 }
