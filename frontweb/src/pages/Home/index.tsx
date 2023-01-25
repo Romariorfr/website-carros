@@ -6,9 +6,16 @@ const Home = () => {
     <>
       <div className="home-container">
         <div className="card-container">
-          <Car />
+          <Car/>
           <h1>O carro perfeito para você</h1>
-          <h4>Conheça nossos carros e dê mais um passo na realização do seu sonho</h4>
+          <p>
+            Conheça nossos carro e de mais um passo na realização de seu sonho
+          </p>
+        </div>
+
+        <div className="catalog-card">
+          <button className='btn-catalog'>VER CATÁLOGO</button>
+          <h2>Comece agora a navegar</h2>
         </div>
       </div>
     </>

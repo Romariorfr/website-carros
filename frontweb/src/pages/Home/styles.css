@@ -8,6 +8,7 @@
   align-items: center;
   align-content: center;
   flex-direction: column;
+  padding-top: 60px;
   color: #fff;
   background-color: #00285f;
   border-radius: 10px;
@@ -19,8 +20,34 @@
   margin: 35px 22px 15px 22px;
 }
 
-.card-container h4 {
+.card-container p {
+  text-align: center;
   font-size: 16px;
   font-weight: 400;
   margin: 0px 30px 50px 30px;
+}
+
+.catalog-card {
+  display: flex;
+  align-content: center;
+  text-align: center;
+  flex-direction: column;
+  border-radius: 10px;
+  border: 1px solid red;
+  color: #585858;
+  background-color: #ededed;
+  margin: 20px 2px;
+}
+
+.catalog-card h2 {
+  font-size: 20px;
+  color: #585858;
+  font-weight: 400;
+  margin: 10px 50px 25px 50px;
+}
+
+.btn-catalog {
+  margin: 30px 60px 10px 60px;
+  background-color: #00285f;
+  color: #fff;
 }
