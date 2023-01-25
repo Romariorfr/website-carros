@@ -1,5 +1,6 @@
 .home-container {
   margin: 20px 10px;
+  position: relative;
 }
 
 .card-container {
@@ -33,21 +34,26 @@
   text-align: center;
   flex-direction: column;
   border-radius: 10px;
-  border: 1px solid red;
-  color: #585858;
-  background-color: #ededed;
-  margin: 20px 2px;
+  margin: 20px 2px 20px 2px;
+  background-color: #EDEDED;
+ 
 }
 
 .catalog-card h2 {
   font-size: 20px;
   color: #585858;
   font-weight: 400;
-  margin: 10px 50px 25px 50px;
+  padding-bottom: 25px ;
+  padding-top: 5px;
+
 }
 
 .btn-catalog {
   margin: 30px 60px 10px 60px;
   background-color: #00285f;
   color: #fff;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+
 }
