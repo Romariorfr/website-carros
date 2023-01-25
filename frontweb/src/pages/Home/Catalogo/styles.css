@@ -1,0 +1,67 @@
+.catalog-container {
+  margin: 20px 10px;
+  position: relative;
+}
+
+.card-buscar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  color: #fff;
+  background-color: #ededed;
+  border-radius: 10px;
+}
+
+.card-buscar input {
+  height: 40px;
+  width: 200px;
+  background: #ffffff;
+  border-radius: 5px 0px 0px 5px;
+  border-color: #ededed;
+  margin-top: 22px;
+  margin-bottom: 24px;
+
+}
+
+.card-buscar button {
+  height: 40px;
+  width: 77px;
+  background: #00285f;
+  border-radius: 0px 5px 5px 0px;
+  color: #fff;
+  margin-top: 22px;
+  margin-bottom: 24px;
+}
+
+.card-product {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  padding-top: 14px;
+  margin-top: 20px;
+  background-color: #ededed;
+  border-radius: 10px;
+}
+
+.card-product button {
+  background: #00285f;
+  border-radius: 5px;
+  margin-bottom: 18px;
+  color: #fff;
+  width: 257.93px;
+  height: 40px;
+}
+
+.card-product h1 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.card-product p {
+    padding: 14px 22px;
+    font-size: 14px;
+}
