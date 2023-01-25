@@ -34,9 +34,9 @@
   align-items: center;
   align-content: center;
   display: flex;
-  
+
   text-align: center;
- 
+
   border-radius: 10px;
   margin: 20px 2px 20px 2px;
   background-color: #ededed;
@@ -95,9 +95,25 @@
 }
 
 @media (min-width: 768px) {
-
   .home-container p {
     margin: 0px 160px 40px 160px;
+  }
+}
 
+@media (min-width: 992px) {
+  .card-container svg {
+    width: 445px;
+  }
+
+  .home-container p {
+    margin-bottom: 120px;
+    margin-left: 265px;
+    margin-right: 265px;
+  }
+
+  .catalog-card {
+    justify-content: flex-start;
+    margin: 20px 2px 20px 2px;
+    padding-left: 90px;
   }
 }
