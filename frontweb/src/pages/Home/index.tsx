@@ -1,5 +1,6 @@
 import './styles.css';
 import { ReactComponent as Car } from '../../assets/images/car.svg';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -16,7 +17,9 @@ const Home = () => {
         </div>
 
         <div className="catalog-card">
-          <button className="btn-catalog">VER CATÁLOGO</button>
+          <Link to="/products">
+            <button className="btn-catalog">VER CATÁLOGO</button>
+          </Link>
           <h2>Comece agora a navegar</h2>
         </div>
       </div>
@@ -24,4 +27,4 @@ const Home = () => {
   );
 };
 
-export default Home; 
+export default Home;
